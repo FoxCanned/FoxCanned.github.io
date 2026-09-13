@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8">
+    
+
+    <title>Yihao Zhen（甄奕豪）</title>
+
+    <meta name="author" content="Yihao Zhen (甄奕豪)">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://jacky1128.github.io/stylesheet.css?v=section-gap">
+    <style>
+      .publication-list { border-spacing: 0; }
+      .publication-list .publication-thumb { display: block; width: 180px; max-width: 100%; height: auto; }
+      .publication-list .publication-thumb img { display: block; width: 180px; max-width: 100%; height: auto; }
+      .highlight { background-color: #ffffd0; }
+      h2 { font-weight: 700; }
+
+      /* Publication hierarchy: category labels with separate paper cards. */
+      .publication-list > tbody.mcmt-group,
+      .publication-list > tbody.vl-group {
+        outline: none;
+        background: transparent;
+      }
+      .publication-list .section-heading td {
+        padding: 8px 20px 8px 12px;
+        text-align: left;
+        color: #666;
+        border-bottom: 1px solid #e5e5e5;
+        position: relative;
+      }
+      .publication-list .section-heading td::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 3px;
+        height: 30px;
+        background: #c8c8c8;
+      }
+      .publication-list .vl-group .section-heading td { padding-top: 0; }
+      .publication-list tr.paper {
+        background: #fff;
+        transition: transform .18s ease, box-shadow .18s ease;
+      }
+      .publication-list tr.paper > td {
+        border-top: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+        background: #fff;
+      }
+      .publication-list tr.paper > td:first-child {
+        border-left: 1px solid #e5e5e5;
+        border-radius: 10px 0 0 10px;
+      }
+      .publication-list tr.paper > td:last-child {
+        border-right: 1px solid #e5e5e5;
+        border-radius: 0 10px 10px 0;
+      }
+      .publication-list tr.paper {
+        box-shadow: 0 3px 10px rgba(0, 0, 0, .06);
+      }
+      .publication-list tr.paper:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, .12);
+      }
+      .publication-list tr.paper .paper-teaser {
+        border-right: 1px solid #eeeeee;
+      }
+      .publication-list tr.paper .publication-thumb img {
+        border-radius: 6px;
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    <img src="./Yihao_Zhen_homepage_files/GVC_lab.png" alt="GVC Lab logo" style="position:absolute;z-index:10;top:16px;left:max(16px, calc(50% - 400px));width:220px;max-width:25vw;height:auto;">
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin:56px auto 0;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center; margin-bottom: 36px;">
+                  <span style="white-space: nowrap;">Yihao Zhen 甄奕豪</span>
+                </p>
+                  Hi! I am currently a Research Assistant at <a href="https://gvclab.github.io/">GVC Lab, Greater Bay University</a>, advised by <a href="https://vinthony.github.io/academic/">Dr. Xiaodong Cun</a>. I received my M.S. degree from the University of Chinese Academy of Sciences and my B.S. degree from Shandong University. 
+                  During my postgraduate studies, I focused on <span class="highlight">object tracking</span>, particularly vision-language tracking and multi-camera multi-target (MCMT) tracking. I am currently working on <span class="highlight">human-centric video generation</span> and video world models.
+                </p>
+                <p style="text-align:center">
+                  <a href="zhenyihao@sia.cn">Email</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=NBQUx04AAAAJ&hl=en&oi=sra">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/FoxCanned">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="./Yihao_Zhen_homepage_files/yihao_zhen.png"><img style="width:100%;max-width:100%;aspect-ratio:1 / 1;object-fit:cover;object-position:center 35%;border-radius:12px;" alt="profile photo" src="./Yihao_Zhen_homepage_files/yihao_zhen.png" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+	              <td style="padding:16px 16px 4px;width:100%;vertical-align:middle">
+                <h2 class="publication-heading">Selected Works</h2>
+              </td>
+            </tr>
+          </tbody></table>
+	<table class="publication-list" style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin:-4px auto 0;"><tbody class="vl-group">
+
+<tr class="section-heading vl-publication">
+  <td colspan="2">VL Tracking</td>
+</tr>
+<tr class="paper vl-publication vl-last">
+  <td class="paper-teaser" style="padding:20px;width:25%;vertical-align:middle">
+    <div class="publication-thumb"><img src="./Yihao_Zhen_homepage_files/BSTrack.png" alt="BSTrack teaser"></div>
+  </td>
+  <td class="paper-body" style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://doi.org/10.1109/TCSVT.2026.3722874"><span class="papertitle">BSTrack: Bridging Cross-Modal Spatio-Temporal Differences in Vision-Language Tracking</span></a>
+    <br>
+    <strong>Yihao Zhen</strong>, Qiang Wang, Liangqiong Qu, Huijie Fan
+    <br>
+    <em>IEEE Transactions on Circuits and Systems for Video Technology</em>
+    <br>
+    <a href="https://doi.org/10.1109/TCSVT.2026.3722874">official publication</a>
+    <p></p>
+    <p>
+    A vision-language tracker that bridges cross-modal spatio-temporal differences through fine-grained input decoupling and efficient semantic information updating.
+    </p>
+  </td>
+</tr>
+
+ </tbody><tbody class="mcmt-group">
+
+
+<tr class="section-heading mcmt-publication">
+  <td colspan="2">MCMT Tracking</td>
+</tr>
+<tr class="paper mcmt-publication mcmt-last">
+  <td class="paper-teaser" style="padding:20px;width:25%;vertical-align:middle">
+    <div class="publication-thumb"><img src="./Yihao_Zhen_homepage_files/GMT.png" alt="GMT teaser"></div>
+  </td>
+  <td class="paper-body" style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhen_GMT_Effective_Global_Framework_for_Multi-Camera_Multi-Target_Tracking_CVPR_2026_paper.html"><span class="papertitle">GMT: Effective Global Framework for Multi-Camera Multi-Target Tracking</span></a>
+    <br>
+    <strong>Yihao Zhen</strong>*, Mingyue Xu*, Qiang Wang, Baojie Fan, Jiahua Dong, Tinghui Zhao, Huijie Fan
+    <br>
+    <em>CVPR</em>, 2026
+    <br>
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhen_GMT_Effective_Global_Framework_for_Multi-Camera_Multi-Target_Tracking_CVPR_2026_paper.html">official publication</a>
+    <p></p>
+    <p>
+    A novel global framework for MCMT tracking that directly exploits multi-view information by modeling global trajectories.
+    </p>
+  </td>
+</tr>
+
+
+<tr class="paper mcmt-publication mcmt-last">
+  <td class="paper-teaser" style="padding:20px;width:25%;vertical-align:middle">
+    <div class="publication-thumb"><img src="./Yihao_Zhen_homepage_files/ADMCMT.png" alt="ADMCMT teaser"></div>
+  </td>
+  <td class="paper-body" style="padding:20px;width:75%;vertical-align:middle">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Fan_All-Day_Multi-Camera_Multi-Target_Tracking_CVPR_2025_paper.html"><span class="papertitle">All-Day Multi-Camera Multi-Target Tracking</span></a>
+    <br>
+    Huijie Fan, Yu Qiao, <strong>Yihao Zhen</strong>, Tinghui Zhao, Baojie Fan, Qiang Wang
+    <br>
+    <em>CVPR</em>, 2025
+    <br>
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Fan_All-Day_Multi-Camera_Multi-Target_Tracking_CVPR_2025_paper.html">official publication</a>
+    <p></p>
+    <p>All-day MCMT tracking for robust identity association under different light conditions.</p>
+  </td>
+</tr>
+
+
+	 </tbody></table>
+
+	          <table class="education-experience" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:16px auto 0;"><tbody>
+	            <tr>
+	              <td style="padding:16px;width:100%;vertical-align:middle">
+	                <h2>Education &amp; Research Experience</h2>
+	                <p><strong>University of Chinese Academy of Sciences</strong><span style="float:right;">Sep. 2023 &ndash; Jun. 2026</span><br>M.S. in Pattern Recognition and Intelligent Systems</p>
+	                <p><strong>Shandong University</strong><span style="float:right;">Sep. 2019 &ndash; Jun. 2023</span><br>B.S. in Mechanical Engineering</p>
+	                <p><strong>GVC Lab, Great Bay University</strong><span style="float:right;">Apr. 2026 &ndash; Present</span><br>Research Assistant, supervised by <a href="https://vinthony.github.io/academic/">Dr. Xiaodong Cun</a><br>.</p>
+	              </td>
+	            </tr>
+	          </tbody></table>
+
+	          <table class="more-about-me" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:0 auto;"><tbody>
+	            <tr>
+	              <td style="padding:16px;width:100%;vertical-align:middle">
+	                <h2>More About Me</h2>
+	                <p>&bull; A big fan and five-star player in <img src="./Yihao_Zhen_homepage_files/hunt_showdown.ico" alt="Hunt: Showdown icon" style="display:inline-block;width:1em;height:1em;vertical-align:-0.15em;margin:0 0.2em 0 0;"> <em>Hunt: Showdown</em>.</p>
+	                <p>&bull; One of the founders of the <a href="https://xhslink.cn/o/3TTNlP9NptX">MaJia Mountain Cat Alliance</a>.</p>
+	                <p>&bull; Once shared my home with a 🐇 and now have two 🐈🐈.</p>
+	              </td>
+	            </tr>
+	          </tbody></table>
+
+	          
+	          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+	                <p style="text-align:center;font-size:small;">
+	                  Modified from <a href="https://jonbarron.info/">Jon Barron.</a>
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </tbody></table>
+  
+
+</body></html>
